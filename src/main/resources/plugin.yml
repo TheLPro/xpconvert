@@ -1,0 +1,18 @@
+name: XpConvert
+version: '${project.version}'
+main: me.thelpro.XpConvert
+api-version: 1.19
+authors: [ TheLPro ]
+commands:
+  convertxp:
+    description: Convert XP bottles to experience!
+    aliases:
+      - xpconvert
+      - bottle2xp
+      - b2x
+      - xp
+      - convxp
+      - cxp
+permissions:
+  xpconvert.convert:
+    description: "Be able to use /convertxp"
